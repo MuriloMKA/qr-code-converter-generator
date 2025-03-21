@@ -1,1 +1,0 @@
-# qr-code-converter-generator
