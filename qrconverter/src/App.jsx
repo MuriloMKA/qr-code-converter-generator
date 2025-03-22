@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import Styled  from 'styled-components'
+import Styled from 'styled-components'
 import Converter from './pages/pag2'
 import QRgenerator from './pages/pag1'
+import PageHeader from './components/PageHeader/pageHeader'
 
 
 const AppContainer = Styled.div`
- width: 100%;
+  width: 100%;
   height: 100vh;
 
 `
@@ -15,10 +16,11 @@ const AppContainer = Styled.div`
 function App() {
 
   return (
-   <AppContainer>
-      <QRgenerator/>
-       <Converter />  
-   </AppContainer>
+    <AppContainer>
+      <PageHeader />
+      <QRgenerator />
+      <Converter />
+    </AppContainer>
   )
 }
 

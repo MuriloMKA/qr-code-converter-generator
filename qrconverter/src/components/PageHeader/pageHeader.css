@@ -1,0 +1,29 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+    width: 100%;
+    max-height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 38rem;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 30px;
+    width: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.button {
+    border-color: gray;
+    background-color: white;
+}
